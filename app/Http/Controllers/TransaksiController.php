@@ -29,10 +29,9 @@ class TransaksiController extends Controller
         ]);
         
         $transaksi = \App\Transaksi::create($request->all());
-        $pelanggan = \App\Pelanggan::create($request->all());
-        $mobil = \App\Mobil::create($request->all());
-        $supir = \App\Supir::create($request->all());
-
+        $data_pelanggan = \App\Pelanggan::all();
+        $data_supir = \App\Supir::all();
+        $data_mobil = \App\Mobil::all();
         if($request->hasFile('jaminan')){
             $request->file('jaminan')->move('images/',$request->file('jaminan')->getClientOriginalName());
             $transaksi->jaminan = $request->file('jaminan')->getClientOriginalName();

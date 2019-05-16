@@ -80,7 +80,7 @@
                         </select></div>
                     <div class="form-group{{$errors->has('supir_id') ? ' has error' : ''}}">
                         <label for="">Supir</label>
-                        <select name="supir+id" id="" class="form-control">
+                        <select name="supir_id" id="" class="form-control">
                             @foreach($data_supir as $supir)
                             <option value="{{$supir->id}}">{{$supir->nama}}</option>
                             @endforeach
