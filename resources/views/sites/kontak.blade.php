@@ -1,20 +1,6 @@
 @extends('layouts.frontend')
 
 @section('content')
-<!-- Contact Content Part - GoogleMap ==================================================
-================================================== -->
-<section class="map"> 
-  <!-- google map -->
-  <div class="map-holder">
-    <div class="map-container">
-      <iframe class="map" src="https://www.google.com/maps?q=kautsar+rent+samarinda&amp;biw=1188&amp;bih=530&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=0ahUKEwju3v-5lJ_iAhVCKa0KHZEUCMEQ_AUICigB"></iframe>
-      <!-- end google map map nya masih error--> 
-    </div>
-    <!--map-container ends here--> 
-  </div>
-  <!--map-holder ends here--> 
-</section>
-
 <!-- Contact Content Part - Contact Form ==================================================
 ================================================== -->
 <div class="container">

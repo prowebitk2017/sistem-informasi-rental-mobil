@@ -47,7 +47,7 @@
         </div>
         <div class="email">
           <label>Pesan Tambahan</label>
-          <textarea name="pesan" rows="6" cols="10" required></textarea>
+          <textarea name="pesan" rows="6" cols="10"></textarea>
         </div>
         <div id="loader">
           <input type="submit" value="Tambah"/>

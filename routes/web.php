@@ -48,6 +48,6 @@ Route::group(['middleware' => 'auth'], function(){
 
     Route::get('/pesanan', 'PesananController@index');
     Route::post('/pesanan/create', 'PesananController@create');
-    Route::get('/pesanan/delete', 'PesananController@delete');
+    Route::get('/pesanan/{id}/delete', 'PesananController@delete');
 });
 
