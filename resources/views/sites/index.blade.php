@@ -1,1 +1,1 @@
-faisal
+@extends('layouts.frontend')
