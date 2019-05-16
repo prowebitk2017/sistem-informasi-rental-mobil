@@ -10,11 +10,6 @@
 
 <div class="card shadow mb-4">
     <div class="card-body">
-        <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search"
-                method="GET" action="/transaksi">
-            </form>
-        </div>
         <div class="table-responsive">
             <div id="dataTable_wrapper" class="dataTables_wrapper dt-bootstrap4">
                 <table class="table table-bordered dataTable" id="dataTable" width="100%" cellspacing="0" role="grid">

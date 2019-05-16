@@ -27,7 +27,6 @@
         </div>
         <div class="email">
           <label>Mobil</label>
-                        <label for="">Mobil</label>
                         <select name="mobil" class="form-control">
                             @foreach($data_mobil as $mobil)
                             <option value="{{$mobil->nama}}">{{$mobil->nama}}</option>
@@ -46,7 +45,7 @@
           <label>Tanggal Sewa</label>
           <input name="tgl_sewa" type="date" placeholder="Tanggal Sewa" required />
         </div>
-        <div class="email">
+        <div class="name">
           <label>Tanggal Kembali</label>
           <input name="tgl_kembali" type="date" placeholder="Tanggal Kembali" required />
         </div>
