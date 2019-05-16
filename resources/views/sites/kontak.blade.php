@@ -4,12 +4,10 @@
 
 <div class="container">
   <div class="blankSeparator"></div>
-  <!-- Contact Sidebar  -->
   <div class="one_third contactsidebar">
     <section class="first">
       <h2>Kunjungi dan Hubungi Kami</h2>
       <div class="sepContainer"></div>
-
       <div class="boxtwosep"></div>
       <ul class="contactsidebarList">
         <li>Telp     :   0542-792-522</li>

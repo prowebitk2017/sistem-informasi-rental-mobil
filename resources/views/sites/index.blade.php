@@ -3,9 +3,8 @@
 
 <div class="flexslider">
   <ul class="slides">
-    <li> <img src="{{asset('/frontend')}}/images/flexslider/gambarslide1.png" alt=""/></a> </li>
-    <li> <img src="{{asset('/frontend')}}/images/flexslider/gambarslide2.jpg" alt="" /> </li>
-    <li> <img src="{{asset('/frontend')}}/images/flexslider/gambarslider3.jpg" alt="" /></a>
+    <li> <img src="{{asset('/frontend')}}/images/flexslider/1.png" alt=""/></a> </li>
+    <li> <img src="{{asset('/frontend')}}/images/flexslider/2.png" alt="" /> </li>
     </li>
   </ul>
 </div>
