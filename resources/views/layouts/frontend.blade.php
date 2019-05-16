@@ -9,10 +9,10 @@
 <link rel="stylesheet" href="{{asset('/frontend')}}/css/skeleton.css">
 <link rel="stylesheet" href="{{asset('/frontend')}}/css/screen.css">
 <link rel="stylesheet" href="{{asset('/frontend')}}/css/prettyPhoto.css" type="text/css" media="screen" />
-<link rel="shortcut icon" href="images/logoperusahaan.png">
-<link rel="logoperusahaan" href="images/logoperusahaan.png">
-<link rel="logoperusahaan" sizes="72x72" href="images/logoperusahaan.png">
-<link rel="logoperusahaan" sizes="114x114" href="images/logoperusahaan.png">
+<link rel="shortcut icon" href="{{asset('/frontend')}}/images/logoperusahaan.png">
+<link rel="logoperusahaan" href="{{asset('/frontend')}}/images/logoperusahaan.png">
+<link rel="logoperusahaan" sizes="72x72" href="{{asset('/frontend')}}/images/logoperusahaan.png">
+<link rel="logoperusahaan" sizes="114x114" href="{{asset('/frontend')}}/images/logoperusahaan.png">
 <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 <body>
 
