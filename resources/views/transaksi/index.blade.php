@@ -13,15 +13,6 @@
         <div class="d-sm-flex align-items-center justify-content-between mb-4">
             <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search"
                 method="GET" action="/transaksi">
-                <div class="input-group">
-                    <input name="cari" type="text" class="form-control bg-light border-0 small" placeholder="Cari..."
-                        aria-label="Search" aria-describedby="basic-addon2">
-                    <div class="input-group-append">
-                        <button class="btn btn-primary" type="submit">
-                            <i class="fas fa-search fa-sm"></i>
-                        </button>
-                    </div>
-                </div>
             </form>
         </div>
         <div class="table-responsive">
@@ -36,7 +27,7 @@
                             <th>Tgl Kembali</th>
                             <th>Lama Sewa</th>
                             <th>Harga Sewa</th>
-
+                            <th>Jaminan</th>
                             <th>Aksi</th>
                         </tr>
                     </thead>
@@ -45,10 +36,12 @@
                         <tr>
                             <td>{{$transaksi->pelanggan->nama_lengkap}}</td>
                             <td>{{$transaksi->mobil->nama}}</td>
+                            <td>{{$transaksi->supir->nama}}</td>
                             <td>{{$transaksi->tgl_sewa}}</td>
                             <td>{{$transaksi->tgl_kembali}}</td>
-                            <td>{{$transaksi->lama_sewa}}</td>
-                            <td>{{$transaksi->harga_sewa}}</td>
+                            <td>{{$transaksi->lama_sewa}} Hari</td>
+                            <td>Rp{{$transaksi->harga_sewa}}</td>
+                            <td><img src="{{asset('images/'.$transaksi->jaminan)}}" height="50px"></td>
                             <td>
                                 <a href="/transaksi/{{$transaksi->id}}/edit" class="btn btn-warning btn-sm">Ubah</a>
                                 <a href="/transaksi/{{$transaksi->id}}/delete" class="btn btn-danger btn-sm"
@@ -134,7 +127,7 @@
                     </div>
                     <div class="form-group{{$errors->has('jaminan') ? ' has error' : ''}}">
                         <label>Jaminan</label>
-                        <input name="avatar" type="file" class="form-control">
+                        <input name="jaminan" type="file" class="form-control">
                         @if($errors->has('jaminan'))
                         <span style="color:red">{{$errors->first('jaminan')}}</span>
                         @endif
