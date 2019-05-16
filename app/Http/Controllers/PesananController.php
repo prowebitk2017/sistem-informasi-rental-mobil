@@ -13,9 +13,8 @@ class PesananController extends Controller
             }
             else{
             $data_pesanan = \App\Pesanan::all();
-            $data_mobil = \App\Mobil::all();
         }
-        return view('pesanan.index',['data_pesanan' => $data_pesanan, 'data_mobil' => $data_mobil]);
+        return view('pesanan.index',['data_pesanan' => $data_pesanan]);
     }
     
         public function create(Request $request)
