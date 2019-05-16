@@ -34,15 +34,15 @@
 
     <!-- Header-->
     <header>
-      <div class="logo"><a href="index.html"><img src="{{asset('/frontend')}}/images/logoperusahaan.png" alt="" /></a></div>
+      <div class="logo"><a href="/"><img src="{{asset('/frontend')}}/images/logoperusahaan.png" alt="" /></a></div>
       <div class="mainmenu">
         <div id="mainmenu">
           <ul class="sf-menu">
             <li><a href="/"><span class="home"><img src="{{asset('/frontend')}}/images/home.png" alt="" /></span>Beranda</a></li>
             <li><a href="/tentang"><span class="home"><img src="{{asset('/frontend')}}/images/about.png" alt="" /></span>Tentang Kami</a></li>
             <li><a href="/kendaraan"><span class="home"><img src="{{asset('/frontend')}}/images/portfolio.png" alt="" /></span>Jenis Mobil</a>
-            <li><a href="/booking"><span class="home"><img src="{{asset('/frontend')}}/images/features.png" alt="" />Booking Online</span></a></li>
             <li><a href="/kontak"><span class="home"><img src="{{asset('/frontend')}}/images/contact.png" alt="" /></span>Hubungi Kami</a></li>
+            <li><a href="/booking"><span class="home"><img src="{{asset('/frontend')}}/images/features.png" alt="" />Booking Online</span></a></li>
           </ul>
         </div>
         

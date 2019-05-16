@@ -23,8 +23,9 @@ class SiteController extends Controller
 
     public function kendaraan()
     {
-        return view('sites.kendaraan');
-    }
+        $data_mobil = \App\Mobil::all();
+        return view('sites.kendaraan',['data_mobil' => $data_mobil]);            
+}
 
     public function booking()
     {

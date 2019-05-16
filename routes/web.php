@@ -16,6 +16,8 @@ Route::get('/tentang', 'SiteController@tentang');
 Route::get('/kontak', 'SiteController@kontak');
 Route::get('/kendaraan', 'SiteController@kendaraan');
 Route::get('/booking', 'SiteController@booking');
+Route::post('/pesanan/create', 'PesananController@create');
+
 
 Route::get('/login', 'AuthController@login')->name('login');
 Route::post('/postlogin', 'AuthController@postlogin');
@@ -47,7 +49,6 @@ Route::group(['middleware' => 'auth'], function(){
     Route::get('/transaksi/{id}/delete', 'TransaksiController@delete');
 
     Route::get('/pesanan', 'PesananController@index');
-    Route::post('/pesanan/create', 'PesananController@create');
     Route::get('/pesanan/{id}/delete', 'PesananController@delete');
 });
 
