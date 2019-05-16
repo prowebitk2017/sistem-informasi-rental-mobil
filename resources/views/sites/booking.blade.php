@@ -1,5 +1,5 @@
 @extends('layouts.frontend')
 
 @section('content')
-Booking
+<h1>bismillah</h1>
 @endsection

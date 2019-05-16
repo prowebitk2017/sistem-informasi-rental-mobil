@@ -11,8 +11,7 @@
   </ul>
 </div>
 
-<!-- Home Content Part - Box One 
- -->
+<!-- Home Content Part - Box One  -->
 <div class="blankSeparator"></div>
 <div class="container">
   <div class="info">

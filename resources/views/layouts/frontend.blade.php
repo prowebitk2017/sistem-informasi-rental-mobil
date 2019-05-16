@@ -125,7 +125,7 @@
 <script src="{{asset('/frontend')}}/js/jquery-1.8.0.min.js" type="text/javascript"></script> 
 <script src="{{asset('/frontend')}}/js/screen.js" type="text/javascript"></script> 
 <script src="{{asset('/frontend')}}/js/poshytip-1.0/src/jquery.poshytip.min.js" type="text/javascript"></script> 
-<script src="{{asset('/frontend')}}/js/tabs.js" type="text/javascript"></script>  
+<script src="{{asset('/frontend')}}/js/tabs.js" type="text/javascript"></script> 
 <script src="{{asset('/frontend')}}/js/jquery.prettyPhoto.js" type="text/javascript"></script> 
 <script src="{{asset('/frontend')}}/js/superfish.js" type="text/javascript"></script> 
 <script src="{{asset('/frontend')}}/js/hoverIntent.js" type="text/javascript"></script> 
