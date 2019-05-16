@@ -28,6 +28,8 @@ class SiteController extends Controller
 
     public function booking()
     {
-        return view('sites.booking');
+        $data_pesanan = \App\Pesanan::all();
+            $data_mobil = \App\Mobil::all();
+        return view('sites.booking',['data_pesanan' => $data_pesanan, 'data_mobil' => $data_mobil]);            
     }
 }

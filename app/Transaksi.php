@@ -24,3 +24,4 @@ class Transaksi extends Model
         return $this->belongsTo(Mobil::class); 
     }
 }
+

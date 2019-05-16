@@ -27,8 +27,13 @@
         </div>
         <div class="email">
           <label>Mobil</label>
-          <input name="mobil" type="text" placeholder="Mobil" required />
-        </div>
+                        <label for="">Mobil</label>
+                        <select name="mobil" class="form-control">
+                            @foreach($data_mobil as $mobil)
+                            <option value="{{$mobil->nama}}">{{$mobil->nama}}</option>
+                            @endforeach
+                        </select>
+                        </div>
         <div class="email">
           <label>Jumlah Unit</label>
           <input name="jumlah_unit" type="text" placeholder="Jumlah Unit" required />
