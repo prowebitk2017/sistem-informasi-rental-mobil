@@ -29,7 +29,6 @@ class MobilController extends Controller
             'kapasitas' => 'required|numeric',
             'status_pinjam' => 'required',
             'bahan_bakar' => 'required',
-            'avatar' => 'mimes:jpg,png'
         ]);
 
         $mobil = \App\Mobil::create($request->all());

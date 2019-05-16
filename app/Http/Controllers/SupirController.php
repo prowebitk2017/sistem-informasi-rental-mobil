@@ -25,7 +25,6 @@ class SupirController extends Controller
                 'nama' => 'required|string',
                 'no_hp' => 'required|unique:supir|numeric',
                 'alamat' => 'required|string',
-                'avatar' => 'mimes:jpg,png',
             ]);
 
             $supir = \App\Supir::create($request->all());

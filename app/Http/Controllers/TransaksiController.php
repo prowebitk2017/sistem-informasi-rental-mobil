@@ -25,7 +25,6 @@ class TransaksiController extends Controller
             'tgl_kembali' => 'required|date',
             'lama_sewa' => 'required|numeric',
             'harga_sewa' => 'required|numeric',
-            'jaminan' => 'mimes:jpg,png'
         ]);
         
         $transaksi = \App\Transaksi::create($request->all());
