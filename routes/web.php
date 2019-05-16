@@ -12,6 +12,11 @@
 */
 
 Route::get('/', 'SiteController@index');
+Route::get('/tentang', 'SiteController@tentang');
+Route::get('/kontak', 'SiteController@kontak');
+Route::get('/kendaraan', 'SiteController@kendaraan');
+Route::get('/booking', 'SiteController@booking');
+
 
 Route::get('/login', 'AuthController@login')->name('login');
 Route::post('/postlogin', 'AuthController@postlogin');

@@ -10,4 +10,24 @@ class SiteController extends Controller
     {
         return view('sites.index');
     }
+
+    public function tentang()
+    {
+        return view('sites.tentang');
+    }
+
+    public function kontak()
+    {
+        return view('sites.kontak');
+    }
+
+    public function kendaraan()
+    {
+        return view('sites.kendaraan');
+    }
+
+    public function booking()
+    {
+        return view('sites.booking');
+    }
 }
