@@ -20,6 +20,7 @@
                 <table class="table table-bordered dataTable" id="dataTable" width="100%" cellspacing="0" role="grid">
                     <thead>
                         <tr role="row">
+                            <th>ID Transaksi</th>
                             <th>Pelanggan</th>
                             <th>Mobil</th>
                             <th>Supir</th>
@@ -34,6 +35,7 @@
                     <tbody>
                         @foreach($data_transaksi as $transaksi)
                         <tr>
+                            <td>{{$transaksi->id}}</td>
                             <td>{{$transaksi->pelanggan->nama_lengkap}}</td>
                             <td>{{$transaksi->mobil->nama}}</td>
                             <td>{{$transaksi->supir->nama}}</td>

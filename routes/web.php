@@ -20,8 +20,6 @@ Route::post('/postlogin', 'AuthController@postlogin');
 Route::get('/logout', 'AuthController@logout');
 
 Route::group(['middleware' => 'auth'], function(){
-    Route::get('/dashboard', 'DashboardController@index')->middleware('auth');
-
     Route::get('/mobil', 'MobilController@index');
     Route::post('/mobil/create', 'MobilController@create');
     Route::get('/mobil/{id}/edit', 'MobilController@edit');
