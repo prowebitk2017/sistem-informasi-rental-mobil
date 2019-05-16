@@ -2,8 +2,6 @@
 
 @section('content')
 
-
-<!-- Contact Form  -->
 <div class="container">
   <div class="blankSeparator"></div>
 

@@ -7,14 +7,15 @@
   <!-- Contact Sidebar  -->
   <div class="one_third contactsidebar">
     <section class="first">
-      <h3>Kunjungi dan Hubungi Kami</h3>
+      <h2>Kunjungi dan Hubungi Kami</h2>
+      <div class="sepContainer"></div>
+
       <div class="boxtwosep"></div>
       <ul class="contactsidebarList">
-        <li>Jl. Gerilya, Sungai Pinang Dalam, Samarinda, Kota Samarinda, Kalimantan Timur 75117</li>
         <li>Telp     :   0542-792-522</li>
+        <li>Whatsapp :   0852-5030-7371</li>
         <li>Fax      :   0542-542-571</li>
-        <li>Website: <a href="#" title="">http://jasarentalmobilsamarinda b.com</a></li>
-        <li>Email: <a href="#" title="">cskautsar@kautsar.co.id</a></li>
+        <li>Email: <a href="#" title="">cs@falcon.co.id</a></li>
       </ul>
     </section>
   </div>
