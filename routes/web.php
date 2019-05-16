@@ -17,7 +17,6 @@ Route::get('/kontak', 'SiteController@kontak');
 Route::get('/kendaraan', 'SiteController@kendaraan');
 Route::get('/booking', 'SiteController@booking');
 
-
 Route::get('/login', 'AuthController@login')->name('login');
 Route::post('/postlogin', 'AuthController@postlogin');
 Route::get('/logout', 'AuthController@logout');
@@ -46,5 +45,9 @@ Route::group(['middleware' => 'auth'], function(){
     Route::get('/transaksi/{id}/edit', 'TransaksiController@edit');
     Route::post('/transaksi/{id}/update', 'TransaksiController@update');
     Route::get('/transaksi/{id}/delete', 'TransaksiController@delete');
+
+    Route::get('/pesanan', 'PesananController@index');
+    Route::post('/pesanan/create', 'PesananController@create');
+    Route::get('/pesanan/delete', 'PesananController@delete');
 });
 
